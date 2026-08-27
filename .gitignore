@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+
+# Pytest & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data Files (exclude uploaded PDFs except .gitkeep)
+data/uploaded_pdfs/*
+!data/uploaded_pdfs/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.log
